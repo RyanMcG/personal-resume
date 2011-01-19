@@ -1,0 +1,9 @@
+\documentclass[12pt]{resume}
+
+\usepackage{color,palatino}
+\usepackage[margin=1in]{geometry}
+
+\begin{document}
+\title{Ryan McGowan}
+I am awesome.
+\end{document}
