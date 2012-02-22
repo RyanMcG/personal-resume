@@ -811,15 +811,15 @@
 %           and res.cls class by Michael DeCorte.
 %           I have merged these for educational purposes only.
 
-\oddsidemargin -11mm
-\evensidemargin -11mm
+\oddsidemargin -.75in
+\evensidemargin -.75in
 %\textwidth=150mm
-\textwidth=154mm
+\textwidth=7.5in
 \itemsep=0cm
 \parsep=0cm
-\topmargin -12mm
+\topmargin -.75in
 %\textheight 265mm
-\textheight 275mm
+\textheight 10.5in
 
 \newenvironment{list1}{
   \begin{list}{\ding{113}}{%
