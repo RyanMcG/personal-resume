@@ -3,13 +3,16 @@
 Hi, I'm Ryan McGowan and this is my résumé.
 
 It is in Latex so you may compile it however you want. I like to use
-`pdflatex`.
+`pdflatex`. To use my default `pdflatex` command just run make or look at the
+`genpdf` task in the
+[Makefile](https://github.com/RyanMcG/personal-resume/blob/master/Makefile).
 
-    $ pdflatex resume.tex
+    $ make
 
 If you have `watchr` installed (`gem install watchr`) you can edit the
-resume.tex file and get and generate a new pdf when the file is saved.
+[resume.tex](https://github.com/RyanMcG/personal-resume/blob/master/resume.tex)
+file and get and generate a new pdf when the file is saved.
 
-    $ watchr watchr_res.rb
+    $ make watch
 
-Maybe I'll make a web friendly version of this someday. . .
+That's all folks!
