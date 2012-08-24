@@ -1,1 +1,1 @@
-watch( 'resume.tex' )  {|md| system("pdflatex resume.tex") }
+watch( 'resume.tex' )  {|md| system("make") }
