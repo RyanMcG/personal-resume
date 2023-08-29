@@ -1,5 +1,5 @@
 % LaTeX resume using res.cls
-\documentclass[line,letterpaper]{resume}
+\documentclass[line]{resume}
 \usepackage{scalefnt}
 \usepackage{hyperref}
 \hypersetup{colorlinks=false, pdfborder={0 0 0}}
@@ -47,14 +47,11 @@
     {\sl\textbf{Staff Engineer, Tech Lead}} \hfill January 2020--June 2023\\
     \emph{Identity at \underline{\href{https://www.lyft.com/}{Lyft}}}
     \begin{itemize}
-        \item Continued ownership of team's technical components and long-term
-            vision
-        \item Executed on key components of the long-term vision including
-            building Lyft's first native-graph-DB-backed service. Advised a new
-            team built around that service.
-        \item Led cross-functional and cross-team work-streams tackling key
-            risk problems like rider/driver safety, account security, and
-            identity fraud.
+        \item Continued ownership and execution of team's technical components and long-term
+            vision including graph DB, identity proofing solutions
+        \item Pitched, got buy-in and executed on building Lyft's first native-graph-DB-backed service. Advised a new team built around that service. Today it is used to power multi-hop features used in rules and models saving \$ millions yearly.
+	\item Designed and led implementation of solution to severe driver safety incidents in major markets which exposed Lyft to millions in insurance and PR risk. MVP launched in a month with a cross-functional team.
+	\item Led multi-team, cross-functional solution to driver acquisition abuse (costing \$10M+ annually). Broke the problem down, defined it and brought along leadership with clear docs. Addressed concerns by testing previous identity proofing solutions and addressing their gaps with the new fraud vector. Leveraged incremental technical solutions instead of building from scratch and taking more time and resources.
         \item Successfully mentored team members through career pathway and
             promotions.
     \end{itemize}
@@ -67,9 +64,9 @@
             technical vision.
         \item Designed, built, and owned key services handling millions of
             requests per minute. Two of my services were taken on by other teams
-            and have stood the test of time.
-        \item Designed and developed solutions to key business problems: \\
-            Recycled phone numbers, duplicate accounts, lyft.com authentication,
+            and have stood the test of time. 
+        \item Designed and developed solutions to
+	    Recycled phone numbers (existential problem), duplicate accounts, lyft.com authentication,
             account recovery.
         \item Supported team members solving a myriad of other problems: \\
             Third party identity linking, account take over, unauthorized
@@ -98,9 +95,5 @@
     \vspace{6pt}
 
 \end{resume}
-
-\vspace{50pt}
-
-\hfill Made with \LaTeX{}
 
 \end{document}
